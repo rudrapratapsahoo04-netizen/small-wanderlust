@@ -1,0 +1,208 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+.container{
+    flex: 1;
+}
+.navbar{
+    height: 3.5rem;
+}
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+.nav-link{
+    color: #ff0000 !important;
+}
+
+.f-info-links a{
+  text-decoration: none;
+  color: #222222;
+  position: relative;
+  left: 48%;
+ 
+}
+.f-info-links a:hover{
+  text-decoration: underline;
+  color: #222222;
+}
+.f-info-links{
+    width: 100%;
+}
+.f-info-socials{
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 46%;
+}
+.f-info-socials i{
+    transition: 0.3s;
+    color:rgb(0, 0, 0);
+     height: 30px;
+    width: 30px;
+    margin-right: 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    border-radius: 50%;
+}
+.f-info-socials i:hover{
+    transform: scale(1.10);
+    box-shadow:0 0 20px cyan ;
+}
+
+.f-info{
+    align-items: center;
+    display: flex;
+    height: 8rem;
+    background-color: rgb(202, 219, 219);
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: space-evenly;
+}
+
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    height: 200px !important;
+
+}
+.card-body{
+    padding: 0 !important;
+}
+.card-text p{
+    font-weight:400 !important;
+    font-family: 'Courier New', Courier, monospace !important;
+}
+.card-col:hover .card-img-top{
+    background-color: white;
+}
+.add-btn{
+    height: 40px;
+    width: 110px;
+    border-radius: 20px;
+    background: purple;
+    border: none;
+    transition: 0.3s;
+}
+.add-btn:hover{
+    transform: scale(1.10);
+    box-shadow: 0 0 20px purple;
+}
+.show-img{
+    height: 40vh !important;
+}
+.show-btn{
+    display: flex;
+    gap: 20px;
+}
+.btn-delete{
+    border-color: #fe424d;
+    background:transparent;
+    color: black;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.btn-delete:hover{
+    transform: scale(1.10);
+    box-shadow: 0 0 20px red;
+    background: red;
+}
+
+.btn-edit{
+    border-color: #27f88c;
+    background:transparent;
+    color: black;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    transition: 0.3s;
+    margin-bottom: 2rem;
+}
+.btn-edit:hover{
+     transform: scale(1.10);
+    box-shadow: 0 0 20px greenyellow;
+    background: green;
+}
+
+.btn-add-edit{
+     border-color: #27f88c;
+    background:transparent;
+    color: black;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    transition: 0.3s;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+.btn-add-edit:hover{
+    transform: scale(1.10);
+    box-shadow: 0 0 20px greenyellow;
+    background: green;
+}
+
+.btn-review{
+    border-color: #27f88c;
+    background:transparent;
+    color: black;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    transition: 0.3s;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.btn-review:hover{
+     transform: scale(1.10);
+    box-shadow: 0 0 20px greenyellow;
+    background: green;
+}
+
+.btn-sign{
+    border-color: #27f88c;
+    background:transparent;
+    color: black;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    transition: 0.3s;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.btn-sign:hover{
+     transform: scale(1.10);
+    box-shadow: 0 0 20px greenyellow;
+    background: green;
+}
+.btn-login{
+        border-color: #27f88c;
+    background:transparent;
+    color: black;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    transition: 0.3s;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.btn-login:hover{
+     transform: scale(1.10);
+    box-shadow: 0 0 20px greenyellow;
+    background: green;
+}
+

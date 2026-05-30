@@ -1,0 +1,27 @@
+<% layout('/layouts/boilerplate.ejs') %>
+<% if(error && error.length){ %>
+<div class="alert alert-danger col-4 offset-4 mt-2">
+    <%= error %>
+</div>
+<% } %>
+<% if(success && success.length){ %>
+<div class="alert alert-success col-4 offset-4 mt-2">
+    <%= success %>
+</div>
+<% } %>
+<body>
+    <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-1">
+           <% for(let listing of allListings){ %>
+            
+                 <div class="card col listing-card" >
+                  <a href="/listings/<%= listing._id %>"><img src="<%= listing.image.url %>" class="card-img-top" alt="listingimg"></a>  
+                  
+                       <div class="card-body">
+                       <p class="card-text"><p><%= listing.title %>
+                        <br>&#8377 <%= listing.price ? listing.price.toLocaleString("en-IN"):"price not defined" %>/night</p>
+                       </div>
+                </div>
+
+            <%}%>
+    </div>
+</body>
